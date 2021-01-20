@@ -1,5 +1,5 @@
 {
-  "name": "thegrowthmill/react-native-unity-view",
+  "name": "thegrowthmill-react-native-unity-view",
   "title": "React Native Unity View",
   "version": "0.0.7",
   "description": "Embed Unity Player inside a React Native app",
