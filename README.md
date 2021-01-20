@@ -6,14 +6,12 @@ __*If you're using a Unity version older than 2019.3 you can only export to andr
 
 ## Notice
 
-This is a fork of [https://github.com/f111fei/react-native-unity-view](https://github.com/f111fei/react-native-unity-view)
-to make it work with React Native >= 0.60.
-
-**This project may or may not be updated depending on the further use of it at my workplace, however feel free to fork it** 
+This is a fork of [https://github.com/asmadsen/react-native-unity-view](https://github.com/asmadsen/react-native-unity-view)
+to fix messages not being received by React Native when Unity is manually created.
 
 ## Install
 
-`yarn add @asmadsen/react-native-unity-view`
+`yarn add @thegrowthmill/react-native-unity-view`
 
 ## Configuration
 
