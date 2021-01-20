@@ -16,11 +16,13 @@ RCT_EXPORT_MODULE(RNUnityView)
         [UnityUtils createPlayer:^{
             [self.currentView setUnityView: [GetAppController() unityView]];
         }];
-        [GetAppController() setUnityMessageHandler: ^(const char* message) {
-            [_bridge.eventDispatcher sendDeviceEventWithName:@"onUnityMessage"
-                                                            body:[NSString stringWithUTF8String:message]];
-        }];
     }
+    
+    [GetAppController() setUnityMessageHandler: ^(const char* message) {
+        [_bridge.eventDispatcher sendDeviceEventWithName:@"onUnityMessage"
+                                                        body:[NSString stringWithUTF8String:message]];
+    }];
+    
     return self.currentView;
 }
 
